@@ -9,6 +9,7 @@ Getter for getting all available Breakpoints.
 Usage/Example:
 ```
 var breakpoints = stateManagerBreakpoints();
+console.log(breakpoints);
 console.log(breakpoints.s.enter);
 console.log(breakpoints.m.exit);
 ```

@@ -3,7 +3,7 @@ This little script (stateManagerAdvanced.js) allows you to change (and show/get)
 
 -------
 
-### Method "stateManagerBreakpoints()":
+### Function "stateManagerBreakpoints()":
 Getter for getting all available Breakpoints.
 
 Usage/Example:
@@ -15,7 +15,7 @@ console.log(breakpoints.m.exit);
 
 -------
 
-### Method "stateManagerUpdateBreakpoint(state,obj)":
+### Function "stateManagerUpdateBreakpoint(state,obj)":
 Updates a breakpoint of the State Manager (e.g. xs, s, m, l, xl)
 
 Usage/Example:
@@ -29,7 +29,7 @@ stateManagerUpdateBreakpoint("xl",{ enter:2880 });
 
 -------
 
-### Method "stateManagerUpdatePlugins()":
+### Function "stateManagerUpdatePlugins()":
 Use this method after breakpoints have been changed (e.g. after stateManagerUpdateBreakpoint()), so the plugins can be adjusted accordingly to the new breakpoints.
 
 Usage/Example:

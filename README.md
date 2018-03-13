@@ -25,7 +25,8 @@ stateManagerUpdateBreakpoint("s",{ enter:500, exit:800 });
 stateManagerUpdateBreakpoint("xl",{ enter:2880 });
 ```
 
-*Note: Do not forget to use "stateManagerUpdatePlugins()" after you have done all your changes.* 
+*Note: Do not forget to use "stateManagerUpdatePlugins()" after you have done all your changes.*
+
 *Note: Do not forget to update your less variable breakpoints as well (usually less/_variables/structure.less)*
 
 -------

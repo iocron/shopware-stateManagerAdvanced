@@ -4,7 +4,7 @@ This little script (stateManagerAdvanced.js) allows you to change (and show/get)
 -------
 
 ### Function "stateManagerBreakpoints()":
-Getter for getting all available Breakpoints.
+Getter for getting all available Breakpoints (usually: xs, s, m, l, xl).
 
 Usage/Example:
 ```
@@ -17,7 +17,7 @@ console.log(breakpoints.m.exit);
 -------
 
 ### Function "stateManagerUpdateBreakpoint(state,obj)":
-Updates a breakpoint of the State Manager (e.g. xs, s, m, l, xl)
+Updates a breakpoint of the State Manager (usually: xs, s, m, l, xl)
 
 Usage/Example:
 ```

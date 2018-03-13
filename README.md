@@ -1,5 +1,5 @@
 # shopware-stateManagerAdvanced
-This little script allows you to change (and show/get) the Shopware JS Breakpoints and to update the plugins accordingly
+This little script allows you to change (and show/get) the Shopware JS Breakpoints and to update the plugins accordingly.
 
 -------
 
@@ -21,9 +21,11 @@ Updates a breakpoint of the State Manager (e.g. xs, s, m, l, xl)
 Usage/Example:
 ```
 stateManagerUpdateBreakpoint("s",{ enter:500, exit:800 });
+stateManagerUpdateBreakpoint("xl",{ enter:2880 });
 ```
 
 *Note: Do not forget to use "stateManagerUpdatePlugins()" after you have done all your changes.*
+*Note: Do not forget to update your less variable breakpoints as well (usually less/_variables/structure.less)*
 
 -------
 
@@ -42,4 +44,4 @@ stateManagerUpdatePlugins();
 Further reading:
 * [Shopware Docs - Javascript StateManager and Pluginbase](https://developers.shopware.com/designers-guide/javascript-statemanager-and-pluginbase/)
 * Do not forget to update your less variable breakpoints as well (usually less/_variables/structure.less)
-* The Shopware State Manager Plugin Location: themes/Frontend/Responsive/frontend/_public/src/js/jquery.state-manager.js
+* The official location of the Shopware State Manager Plugin: themes/Frontend/Responsive/frontend/_public/src/js/jquery.state-manager.js

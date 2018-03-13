@@ -47,3 +47,4 @@ Further reading:
 * [Shopware Docs - Javascript StateManager and Pluginbase](https://developers.shopware.com/designers-guide/javascript-statemanager-and-pluginbase/)
 * Do not forget to update your less variable breakpoints as well (usually less/_variables/structure.less)
 * The official location of the Shopware State Manager Plugin: themes/Frontend/Responsive/frontend/_public/src/js/jquery.state-manager.js
+* If you have any questions regarding this matter, then contact us on http://www.iocron.com/contact.html

@@ -1,5 +1,5 @@
 # shopware-stateManagerAdvanced
-This little script allows you to change (and show/get) the Shopware JS Breakpoints and to update the plugins accordingly.
+This little script (stateManagerAdvanced.js) allows you to change (and show/get) the Shopware JS Breakpoints and to update the plugins accordingly.
 
 -------
 
